@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "البوت شغال ✅ من Replit"
+    return "✅ البوت شغال على Replit ومرتبط بـ UptimeRobot"
 
 def run():
     app.run(host='0.0.0.0', port=8080)
