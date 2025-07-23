@@ -1,3 +1,7 @@
+from keep_alive import keep_alive
+
+# إبقاء البوت يعمل
+keep_alive()
 import logging
 import openai
 from telegram import Update
@@ -8,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 
 # مفاتيح API مباشرة (غير آمن ولكن حسب طلبك)
 TELEGRAM_TOKEN = "8066239879:AAGURepbswUiGB210v931Zu95mBswhXfVVs"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
 
 # رسالة ترحيبية
