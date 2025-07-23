@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 
 # مفاتيح API
 TELEGRAM_TOKEN = "8066239879:AAGURepbswUiGB210v931Zu95mBswhXfVVs"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 openai.api_key = OPENROUTER_API_KEY
 openai.api_base = "https://openrouter.ai/api/v1"  # <-- تغيير المسار الأساسي
 
